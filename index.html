@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="shortcut icon" href="src/images/favicon_io/favicon.ico" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Veganos</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            
+            <i class="fa-solid fa-leaf" id="nav_logo">veganos</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button  class="btn-default">
+                 <a href="https://api.whatsapp.com" target="_blank" rel="noopener noreferrer">Peça aqui</a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+           
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    "Sabores Incríveis, 100% Naturais: Descubra o Prazer da Cozinha Vegana em Cada Garfada!"
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="https://web.whatsapp.com/" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 92342-3243
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Salada de Quinoa com Legumes
+                    </h3>
+
+                    <span class="dish-description">
+                        Quinoa cozida, pepino, tomate cereja, pimentão, cebola roxa e vinagrete de limão.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Hambúrguer de Lentilha
+                    </h3>
+
+                    <span class="dish-description">
+                        Hambúrguer feito de lentilhas, servido com alface, tomate, cebola e maionese vegana em pão integral.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Tacos de Jaca Desfiada
+                    </h3>
+
+                    <span class="dish-description">
+                        Tacos recheados com jaca desfiada, temperada com especiarias mexicanas, guacamole e pico de gallo.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                     <div class="dish-price">
+                        <h4>R$18,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Spaghetti de Abobrinha ao Pesto
+                    </h3>
+
+                    <span class="dish-description">
+                        Abobrinha em espiral com molho pesto de manjericão, nozes e alho.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$27,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+                  </section>
+
+                  <section id="menu">
+                    <h2 class="section-title">Cardápio</h2>
+                    <h3 class="section-subtitle">Nossos pratos especiais</h3>
+        
+                    <div id="dishes">
+                        <div class="dish">
+                            <div class="dish-heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+        
+                            <img src="src/images/dish7.png" class="dish-image" alt="">
+        
+                            <h3 class="dish-title">
+                                Curry de Grão-de-Bico
+                            </h3>
+        
+                            <span class="dish-description">
+                                Grão-de-bico cozido em molho de curry com leite de coco, acompanhado de arroz.
+                            </span>
+        
+                            <div class="dish-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(500+)</span>
+                            </div>
+        
+                            <div class="dish-price">
+                                <h4>R$24,00</h4>
+                                <button class="btn-default">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+        
+                        <div class="dish">
+                            <div class="dish-heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+        
+                            <img src="src/images/dish6.png" class="dish-image" alt="">
+        
+                            <h3 class="dish-title">
+                                Wrap de Falafel
+                            </h3>
+        
+                            <span class="dish-description">
+                                Falafel crocante, alface, tomate, pepino e molho tahine, enrolado em pão sírio.
+                            </span>
+        
+                            <div class="dish-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(500+)</span>
+                            </div>
+        
+                            <div class="dish-price">
+                                <h4>R$40,00</h4>
+                                <button class="btn-default">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+        
+                        <div class="dish">
+                            <div class="dish-heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+        
+                            <img src="src/images/dish7.png" class="dish-image" alt="">
+        
+                            <h3 class="dish-title">
+                                Pizza Vegana de Legumes
+                            </h3>
+        
+                            <span class="dish-description">
+                                Massa integral com molho de tomate, abobrinha, berinjela, cogumelos, cebola e queijo vegano.s
+                            </span>
+        
+                            <div class="dish-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(500+)</span>
+                            </div>
+        
+                             <div class="dish-price">
+                                <h4>R$30,00</h4>
+                                <button class="btn-default">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+        
+                        <div class="dish">
+                            <div class="dish-heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+        
+                            <img src="src/images/dish8.png" class="dish-image" alt="">
+        
+                            <h3 class="dish-title">
+                                Risoto de Cogumelos
+                            </h3>
+        
+                            <span class="dish-description">
+                                Arroz arbóreo cozido com cogumelos frescos, cebola, alho e vinho branco.
+                            </span>
+        
+                            <div class="dish-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(500+)</span>
+                            </div>
+        
+                            <div class="dish-price">
+                                <h4>R$29,00</h4>
+                                <button class="btn-default">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                          </section>         
+
+        <section id="testimonials">
+            <img src="src/images/chef_02.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar_02.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fernanda Mello
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Minha experiência foi incrível! Desde o momento em que entrei, fui recebido com um sorriso caloroso e um serviço impecável. A comida estava simplesmente divina, cada prato era uma explosão de sabores que me deixou querendo mais. O ambiente era acolhedor e a decoração encantadora. Com certeza voltarei e recomendarei a todos os meus amigos!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar_03.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Antônio Cesar
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Não poderia estar mais feliz com minha escolha de jantar aqui. A equipe foi extremamente atenciosa, garantindo que cada detalhe da nossa refeição fosse perfeito. Os pratos eram verdadeiras obras de arte culinária, tanto no sabor quanto na apresentação. Além disso, a atmosfera era relaxante e elegante, perfeita para uma noite memorável. Mal posso esperar para retornar e explorar mais opções do menu!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                     <a href="https://api.whatsapp.com/" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+           
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+            </div>
+            <span id="copyright">
+                &copy <a href="https://www.instagram.com/aros_artedigital/" target="_blank">2024 AROS_ARTEDIGITAL</a>
+            </span>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
